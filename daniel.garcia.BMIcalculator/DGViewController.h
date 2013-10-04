@@ -10,4 +10,12 @@
 
 @interface DGViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *textWeight;
+@property (weak, nonatomic) IBOutlet UITextField *textHeight;
+@property (weak, nonatomic) IBOutlet UISwitch *switchSystem;
+@property (weak, nonatomic) IBOutlet UILabel *lblWeight;
+@property (weak, nonatomic) IBOutlet UILabel *lblHeight;
+
+- (IBAction)btnCalculate:(id)sender;
+
 @end
