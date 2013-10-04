@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61EC430B17FF63A5007F0BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC430A17FF63A5007F0BD2 /* Foundation.framework */; };
+		61EC430D17FF63A5007F0BD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC430C17FF63A5007F0BD2 /* CoreGraphics.framework */; };
+		61EC430F17FF63A5007F0BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC430E17FF63A5007F0BD2 /* UIKit.framework */; };
+		61EC431517FF63A5007F0BD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61EC431317FF63A5007F0BD2 /* InfoPlist.strings */; };
+		61EC431717FF63A5007F0BD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC431617FF63A5007F0BD2 /* main.m */; };
+		61EC431B17FF63A5007F0BD2 /* DGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC431A17FF63A5007F0BD2 /* DGAppDelegate.m */; };
+		61EC431E17FF63A5007F0BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61EC431C17FF63A5007F0BD2 /* Main.storyboard */; };
+		61EC432117FF63A6007F0BD2 /* DGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC432017FF63A6007F0BD2 /* DGViewController.m */; };
+		61EC432317FF63A6007F0BD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61EC432217FF63A6007F0BD2 /* Images.xcassets */; };
+		61EC432A17FF63A6007F0BD2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC432917FF63A6007F0BD2 /* XCTest.framework */; };
+		61EC432B17FF63A6007F0BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC430A17FF63A5007F0BD2 /* Foundation.framework */; };
+		61EC432C17FF63A6007F0BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC430E17FF63A5007F0BD2 /* UIKit.framework */; };
+		61EC433417FF63A6007F0BD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61EC433217FF63A6007F0BD2 /* InfoPlist.strings */; };
+		61EC433617FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC433517FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61EC432D17FF63A6007F0BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61EC42FF17FF63A5007F0BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61EC430617FF63A5007F0BD2;
+			remoteInfo = daniel.garcia.BMIcalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61EC430717FF63A5007F0BD2 /* daniel.garcia.BMIcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daniel.garcia.BMIcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EC430A17FF63A5007F0BD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61EC430C17FF63A5007F0BD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61EC430E17FF63A5007F0BD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61EC431217FF63A5007F0BD2 /* daniel.garcia.BMIcalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "daniel.garcia.BMIcalculator-Info.plist"; sourceTree = "<group>"; };
+		61EC431417FF63A5007F0BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61EC431617FF63A5007F0BD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61EC431817FF63A5007F0BD2 /* daniel.garcia.BMIcalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "daniel.garcia.BMIcalculator-Prefix.pch"; sourceTree = "<group>"; };
+		61EC431917FF63A5007F0BD2 /* DGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGAppDelegate.h; sourceTree = "<group>"; };
+		61EC431A17FF63A5007F0BD2 /* DGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGAppDelegate.m; sourceTree = "<group>"; };
+		61EC431D17FF63A5007F0BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61EC431F17FF63A5007F0BD2 /* DGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGViewController.h; sourceTree = "<group>"; };
+		61EC432017FF63A6007F0BD2 /* DGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGViewController.m; sourceTree = "<group>"; };
+		61EC432217FF63A6007F0BD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61EC432817FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daniel.garcia.BMIcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EC432917FF63A6007F0BD2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		61EC433117FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "daniel.garcia.BMIcalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		61EC433317FF63A6007F0BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61EC433517FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = daniel_garcia_BMIcalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61EC430417FF63A5007F0BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC430D17FF63A5007F0BD2 /* CoreGraphics.framework in Frameworks */,
+				61EC430F17FF63A5007F0BD2 /* UIKit.framework in Frameworks */,
+				61EC430B17FF63A5007F0BD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EC432517FF63A6007F0BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC432A17FF63A6007F0BD2 /* XCTest.framework in Frameworks */,
+				61EC432C17FF63A6007F0BD2 /* UIKit.framework in Frameworks */,
+				61EC432B17FF63A6007F0BD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61EC42FE17FF63A5007F0BD2 = {
+			isa = PBXGroup;
+			children = (
+				61EC431017FF63A5007F0BD2 /* daniel.garcia.BMIcalculator */,
+				61EC432F17FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests */,
+				61EC430917FF63A5007F0BD2 /* Frameworks */,
+				61EC430817FF63A5007F0BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61EC430817FF63A5007F0BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61EC430717FF63A5007F0BD2 /* daniel.garcia.BMIcalculator.app */,
+				61EC432817FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61EC430917FF63A5007F0BD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61EC430A17FF63A5007F0BD2 /* Foundation.framework */,
+				61EC430C17FF63A5007F0BD2 /* CoreGraphics.framework */,
+				61EC430E17FF63A5007F0BD2 /* UIKit.framework */,
+				61EC432917FF63A6007F0BD2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61EC431017FF63A5007F0BD2 /* daniel.garcia.BMIcalculator */ = {
+			isa = PBXGroup;
+			children = (
+				61EC431917FF63A5007F0BD2 /* DGAppDelegate.h */,
+				61EC431A17FF63A5007F0BD2 /* DGAppDelegate.m */,
+				61EC431C17FF63A5007F0BD2 /* Main.storyboard */,
+				61EC431F17FF63A5007F0BD2 /* DGViewController.h */,
+				61EC432017FF63A6007F0BD2 /* DGViewController.m */,
+				61EC432217FF63A6007F0BD2 /* Images.xcassets */,
+				61EC431117FF63A5007F0BD2 /* Supporting Files */,
+			);
+			path = daniel.garcia.BMIcalculator;
+			sourceTree = "<group>";
+		};
+		61EC431117FF63A5007F0BD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61EC431217FF63A5007F0BD2 /* daniel.garcia.BMIcalculator-Info.plist */,
+				61EC431317FF63A5007F0BD2 /* InfoPlist.strings */,
+				61EC431617FF63A5007F0BD2 /* main.m */,
+				61EC431817FF63A5007F0BD2 /* daniel.garcia.BMIcalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61EC432F17FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				61EC433517FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m */,
+				61EC433017FF63A6007F0BD2 /* Supporting Files */,
+			);
+			path = daniel.garcia.BMIcalculatorTests;
+			sourceTree = "<group>";
+		};
+		61EC433017FF63A6007F0BD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61EC433117FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests-Info.plist */,
+				61EC433217FF63A6007F0BD2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61EC430617FF63A5007F0BD2 /* daniel.garcia.BMIcalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61EC433917FF63A6007F0BD2 /* Build configuration list for PBXNativeTarget "daniel.garcia.BMIcalculator" */;
+			buildPhases = (
+				61EC430317FF63A5007F0BD2 /* Sources */,
+				61EC430417FF63A5007F0BD2 /* Frameworks */,
+				61EC430517FF63A5007F0BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daniel.garcia.BMIcalculator;
+			productName = daniel.garcia.BMIcalculator;
+			productReference = 61EC430717FF63A5007F0BD2 /* daniel.garcia.BMIcalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61EC432717FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61EC433C17FF63A6007F0BD2 /* Build configuration list for PBXNativeTarget "daniel.garcia.BMIcalculatorTests" */;
+			buildPhases = (
+				61EC432417FF63A6007F0BD2 /* Sources */,
+				61EC432517FF63A6007F0BD2 /* Frameworks */,
+				61EC432617FF63A6007F0BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61EC432E17FF63A6007F0BD2 /* PBXTargetDependency */,
+			);
+			name = daniel.garcia.BMIcalculatorTests;
+			productName = daniel.garcia.BMIcalculatorTests;
+			productReference = 61EC432817FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61EC42FF17FF63A5007F0BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Campus User";
+				TargetAttributes = {
+					61EC432717FF63A6007F0BD2 = {
+						TestTargetID = 61EC430617FF63A5007F0BD2;
+					};
+				};
+			};
+			buildConfigurationList = 61EC430217FF63A5007F0BD2 /* Build configuration list for PBXProject "daniel.garcia.BMIcalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61EC42FE17FF63A5007F0BD2;
+			productRefGroup = 61EC430817FF63A5007F0BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61EC430617FF63A5007F0BD2 /* daniel.garcia.BMIcalculator */,
+				61EC432717FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61EC430517FF63A5007F0BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC432317FF63A6007F0BD2 /* Images.xcassets in Resources */,
+				61EC431517FF63A5007F0BD2 /* InfoPlist.strings in Resources */,
+				61EC431E17FF63A5007F0BD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EC432617FF63A6007F0BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC433417FF63A6007F0BD2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61EC430317FF63A5007F0BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC431717FF63A5007F0BD2 /* main.m in Sources */,
+				61EC432117FF63A6007F0BD2 /* DGViewController.m in Sources */,
+				61EC431B17FF63A5007F0BD2 /* DGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EC432417FF63A6007F0BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EC433617FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61EC432E17FF63A6007F0BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61EC430617FF63A5007F0BD2 /* daniel.garcia.BMIcalculator */;
+			targetProxy = 61EC432D17FF63A6007F0BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61EC431317FF63A5007F0BD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61EC431417FF63A5007F0BD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61EC431C17FF63A5007F0BD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61EC431D17FF63A5007F0BD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61EC433217FF63A6007F0BD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61EC433317FF63A6007F0BD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61EC433717FF63A6007F0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61EC433817FF63A6007F0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61EC433A17FF63A6007F0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daniel.garcia.BMIcalculator/daniel.garcia.BMIcalculator-Prefix.pch";
+				INFOPLIST_FILE = "daniel.garcia.BMIcalculator/daniel.garcia.BMIcalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61EC433B17FF63A6007F0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daniel.garcia.BMIcalculator/daniel.garcia.BMIcalculator-Prefix.pch";
+				INFOPLIST_FILE = "daniel.garcia.BMIcalculator/daniel.garcia.BMIcalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		61EC433D17FF63A6007F0BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/daniel.garcia.BMIcalculator.app/daniel.garcia.BMIcalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daniel.garcia.BMIcalculator/daniel.garcia.BMIcalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "daniel.garcia.BMIcalculatorTests/daniel.garcia.BMIcalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		61EC433E17FF63A6007F0BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/daniel.garcia.BMIcalculator.app/daniel.garcia.BMIcalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daniel.garcia.BMIcalculator/daniel.garcia.BMIcalculator-Prefix.pch";
+				INFOPLIST_FILE = "daniel.garcia.BMIcalculatorTests/daniel.garcia.BMIcalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61EC430217FF63A5007F0BD2 /* Build configuration list for PBXProject "daniel.garcia.BMIcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EC433717FF63A6007F0BD2 /* Debug */,
+				61EC433817FF63A6007F0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61EC433917FF63A6007F0BD2 /* Build configuration list for PBXNativeTarget "daniel.garcia.BMIcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EC433A17FF63A6007F0BD2 /* Debug */,
+				61EC433B17FF63A6007F0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61EC433C17FF63A6007F0BD2 /* Build configuration list for PBXNativeTarget "daniel.garcia.BMIcalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EC433D17FF63A6007F0BD2 /* Debug */,
+				61EC433E17FF63A6007F0BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61EC42FF17FF63A5007F0BD2 /* Project object */;
+}
