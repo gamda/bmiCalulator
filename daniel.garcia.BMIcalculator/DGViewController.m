@@ -33,12 +33,21 @@
 }
 
 - (IBAction)btnCalculate:(id)sender {
+    double height, weight, bmi;
     if (self.metricSystem) {
-        //calculate
+        // calculate
+        height = [self.textHeight.text doubleValue] / 100;
+        weight = [self.textWeight.text doubleValue];
     }
     else {
         // convert and then calculate
+        height = [self inToCm:[self.textHeight.text doubleValue]] / 100;
+        weight = [self lbToKg:[self.textWeight.text doubleValue]];
     }
+    bmi = weight / (height * height);
+    NSLog(@"height %f, weight %f, bmi %f", height, weight, bmi);
+    self.lblBMI.text = [NSString stringWithFormat:@"%.2f",bmi];
+    self.lblBMI.hidden = false;
 }
 
 - (IBAction)switchChanged:(id)sender {

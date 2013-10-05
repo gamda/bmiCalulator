@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblWeight;
 @property (weak, nonatomic) IBOutlet UILabel *lblHeight;
 @property (weak, nonatomic) IBOutlet UISwitch *metricSwitch;
+@property (weak, nonatomic) IBOutlet UILabel *lblBMI;
 
 - (IBAction)btnCalculate:(id)sender;
 - (IBAction)switchChanged:(id)sender;

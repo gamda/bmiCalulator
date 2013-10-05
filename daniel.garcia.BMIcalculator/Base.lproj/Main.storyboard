@@ -83,10 +83,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQC-Kp-v40">
+                                <rect key="frame" x="20" y="171" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="lblBMI" destination="HQC-Kp-v40" id="j64-y5-FGn"/>
                         <outlet property="lblHeight" destination="bhb-x2-dh5" id="iIR-i6-uta"/>
                         <outlet property="lblWeight" destination="U7P-bW-u1w" id="Wb9-ZB-IFk"/>
                         <outlet property="metricSwitch" destination="rxj-gt-bZz" id="ngQ-Lh-xEJ"/>
