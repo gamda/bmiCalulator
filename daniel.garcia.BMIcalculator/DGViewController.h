@@ -15,7 +15,9 @@
 @property (weak, nonatomic) IBOutlet UISwitch *switchSystem;
 @property (weak, nonatomic) IBOutlet UILabel *lblWeight;
 @property (weak, nonatomic) IBOutlet UILabel *lblHeight;
+@property (weak, nonatomic) IBOutlet UISwitch *metricSwitch;
 
 - (IBAction)btnCalculate:(id)sender;
+- (IBAction)switchChanged:(id)sender;
 
 @end
