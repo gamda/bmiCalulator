@@ -19,5 +19,9 @@
 
 - (IBAction)btnCalculate:(id)sender;
 - (IBAction)switchChanged:(id)sender;
+- (double)inToCm: (double)qty;
+- (double)cmToIn: (double)qty;
+- (double)lbToKg: (double)qty;
+- (double)KgToLb: (double)qty;
 
 @end

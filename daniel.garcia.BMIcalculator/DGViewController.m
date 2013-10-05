@@ -33,6 +33,12 @@
 }
 
 - (IBAction)btnCalculate:(id)sender {
+    if (self.metricSystem) {
+        //calculate
+    }
+    else {
+        // convert and then calculate
+    }
 }
 
 - (IBAction)switchChanged:(id)sender {
@@ -41,11 +47,43 @@
     if (self.metricSystem) {
         self.lblHeight.text = @"cm";
         self.lblWeight.text = @"Kg";
+        // Height
+        NSNumber* prevHeight = [NSNumber numberWithDouble:[self.textHeight.text doubleValue]];
+        double newHeight = [self inToCm:[prevHeight doubleValue]];
+        self.textHeight.text = [NSString stringWithFormat:@"%.2f",newHeight];
+        // Weight
+        NSNumber* prevWeight = [NSNumber numberWithDouble:[self.textWeight.text doubleValue]];
+        double newWeight = [self lbToKg:[prevWeight doubleValue]];
+        self.textWeight.text = [NSString stringWithFormat:@"%.2f",newWeight];
     }
     else {
         self.lblHeight.text = @"in";
         self.lblWeight.text = @"lb";
+        // Height
+        NSNumber* prevHeight = [NSNumber numberWithDouble:[self.textHeight.text doubleValue]];
+        double newHeight = [self cmToIn:[prevHeight doubleValue]];
+        self.textHeight.text = [NSString stringWithFormat:@"%.2f",newHeight];
+        // Weight
+        NSNumber* prevWeight = [NSNumber numberWithDouble:[self.textWeight.text doubleValue]];
+        double newWeight = [self KgToLb:[prevWeight doubleValue]];
+        self.textWeight.text = [NSString stringWithFormat:@"%.2f",newWeight];
     }
+}
+
+- (double)inToCm: (double)qty {
+    return qty * 2.54;
+}
+
+- (double)cmToIn: (double)qty {
+    return qty / 2.54;
+}
+
+- (double)lbToKg: (double)qty {
+    return qty * .454;
+}
+
+- (double)KgToLb: (double)qty {
+    return qty / .454;
 }
 
 @end
