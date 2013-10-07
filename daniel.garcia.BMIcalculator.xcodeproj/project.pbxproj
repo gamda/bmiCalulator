@@ -21,6 +21,9 @@
 		61EC432C17FF63A6007F0BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EC430E17FF63A5007F0BD2 /* UIKit.framework */; };
 		61EC433417FF63A6007F0BD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61EC433217FF63A6007F0BD2 /* InfoPlist.strings */; };
 		61EC433617FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC433517FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m */; };
+		61EC434117FFB9CC007F0BD2 /* DGRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EC434017FFB9CC007F0BD2 /* DGRange.m */; };
+		61EC434318024DB0007F0BD2 /* bmi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 61EC434218024DAF007F0BD2 /* bmi.jpeg */; };
+		61EC434518024F0D007F0BD2 /* redarrow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 61EC434418024F0D007F0BD2 /* redarrow.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		61EC433117FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "daniel.garcia.BMIcalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		61EC433317FF63A6007F0BD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61EC433517FF63A6007F0BD2 /* daniel_garcia_BMIcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = daniel_garcia_BMIcalculatorTests.m; sourceTree = "<group>"; };
+		61EC433F17FFB9CC007F0BD2 /* DGRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGRange.h; sourceTree = "<group>"; };
+		61EC434017FFB9CC007F0BD2 /* DGRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGRange.m; sourceTree = "<group>"; };
+		61EC434218024DAF007F0BD2 /* bmi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bmi.jpeg; path = daniel.garcia.BMIcalculator/bmi.jpeg; sourceTree = "<group>"; };
+		61EC434418024F0D007F0BD2 /* redarrow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = redarrow.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +89,7 @@
 		61EC42FE17FF63A5007F0BD2 = {
 			isa = PBXGroup;
 			children = (
+				61EC434218024DAF007F0BD2 /* bmi.jpeg */,
 				61EC431017FF63A5007F0BD2 /* daniel.garcia.BMIcalculator */,
 				61EC432F17FF63A6007F0BD2 /* daniel.garcia.BMIcalculatorTests */,
 				61EC430917FF63A5007F0BD2 /* Frameworks */,
@@ -117,6 +125,9 @@
 				61EC431C17FF63A5007F0BD2 /* Main.storyboard */,
 				61EC431F17FF63A5007F0BD2 /* DGViewController.h */,
 				61EC432017FF63A6007F0BD2 /* DGViewController.m */,
+				61EC434418024F0D007F0BD2 /* redarrow.gif */,
+				61EC433F17FFB9CC007F0BD2 /* DGRange.h */,
+				61EC434017FFB9CC007F0BD2 /* DGRange.m */,
 				61EC432217FF63A6007F0BD2 /* Images.xcassets */,
 				61EC431117FF63A5007F0BD2 /* Supporting Files */,
 			);
@@ -229,7 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EC434318024DB0007F0BD2 /* bmi.jpeg in Resources */,
 				61EC432317FF63A6007F0BD2 /* Images.xcassets in Resources */,
+				61EC434518024F0D007F0BD2 /* redarrow.gif in Resources */,
 				61EC431517FF63A5007F0BD2 /* InfoPlist.strings in Resources */,
 				61EC431E17FF63A5007F0BD2 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EC434117FFB9CC007F0BD2 /* DGRange.m in Sources */,
 				61EC431717FF63A5007F0BD2 /* main.m in Sources */,
 				61EC432117FF63A6007F0BD2 /* DGViewController.m in Sources */,
 				61EC431B17FF63A5007F0BD2 /* DGAppDelegate.m in Sources */,
