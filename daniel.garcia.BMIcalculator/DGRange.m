@@ -10,10 +10,11 @@
 
 @implementation DGRange
 
-- (id) initWithLowBound: (double)lB andHighBound: (double) hB {
-    self._lowBound = [NSNumber numberWithDouble:lB];
-    self._highBound = [NSNumber numberWithDouble:hB];
-    return self;
++ (DGRange*) initWithLowBound: (double)lB andHighBound: (double) hB {
+    DGRange* new = [[DGRange alloc] init];
+    new._lowBound = [NSNumber numberWithDouble:lB];
+    new._highBound = [NSNumber numberWithDouble:hB];
+    return new;
 }
 
 - (bool) doubleInRange: (double)num {

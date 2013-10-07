@@ -84,15 +84,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQC-Kp-v40">
-                                <rect key="frame" x="20" y="171" width="74" height="21"/>
+                                <rect key="frame" x="20" y="171" width="179" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bmi.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Vwl-PL-BGZ">
+                                <rect key="frame" x="18" y="200" width="284" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redarrow.gif" translatesAutoresizingMaskIntoConstraints="NO" id="b7W-9j-Jwf">
+                                <rect key="frame" x="26" y="273" width="47" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="imgArrow" destination="b7W-9j-Jwf" id="9wY-kE-04i"/>
+                        <outlet property="imgResult" destination="Vwl-PL-BGZ" id="che-cW-P7r"/>
                         <outlet property="lblBMI" destination="HQC-Kp-v40" id="j64-y5-FGn"/>
                         <outlet property="lblHeight" destination="bhb-x2-dh5" id="iIR-i6-uta"/>
                         <outlet property="lblWeight" destination="U7P-bW-u1w" id="Wb9-ZB-IFk"/>
@@ -106,6 +116,10 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="bmi.jpeg" width="337" height="138"/>
+        <image name="redarrow.gif" width="150" height="85"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

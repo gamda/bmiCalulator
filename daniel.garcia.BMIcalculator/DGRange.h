@@ -13,7 +13,7 @@
 @property (retain, nonatomic) NSNumber* _lowBound;
 @property (retain, nonatomic) NSNumber* _highBound;
 
-- (id) initWithLowBound: (double)lB andHighBound: (double) hB;
++ (DGRange*) initWithLowBound: (double)lB andHighBound: (double) hB;
 - (bool) doubleInRange: (double)num;
 
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DGRange.h"
 
-@interface DGViewController : UIViewController
+@interface DGViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *textWeight;
 @property (weak, nonatomic) IBOutlet UITextField *textHeight;
@@ -17,6 +18,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblHeight;
 @property (weak, nonatomic) IBOutlet UISwitch *metricSwitch;
 @property (weak, nonatomic) IBOutlet UILabel *lblBMI;
+@property (weak, nonatomic) IBOutlet UIImageView *imgResult;
+@property (weak, nonatomic) IBOutlet UIImageView *imgArrow;
+@property (retain, nonatomic) NSDictionary* _ranges;
 
 - (IBAction)btnCalculate:(id)sender;
 - (IBAction)switchChanged:(id)sender;
